@@ -5,4 +5,5 @@
     <color name="colorAccent">#FF4081</color>
     <color name="black">#000000</color>
     <color name="list_background">#009933</color>
+    <color name="circularImageColor">#EEEEEE</color>
 </resources>

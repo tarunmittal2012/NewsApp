@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity implements android.support.v
         newsView = findViewById(R.id.news_list);
         mSwipeRefreshLayout = findViewById(R.id.refresh_layout);
         newsView.setEmptyView(mEmptyStateTextView);
-
         mEmptyStateTextView = findViewById(R.id.error_textview);
         mLinearLayout = findViewById(R.id.linear);
         mView = findViewById(R.id.image1);
@@ -104,6 +103,7 @@ public class MainActivity extends AppCompatActivity implements android.support.v
             mEmptyStateTextView.setText(R.string.no_internet_connection);
             mView.setVisibility(View.VISIBLE);
             mLinearLayout.setVisibility(View.VISIBLE);
+
         }
     }
 

@@ -1,18 +1,16 @@
 package com.example.tarunmittal.news;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
-import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.pkmmte.view.CircularImageView;
 import com.squareup.picasso.Picasso;
-import com.squareup.picasso.Transformation;
 
 import java.util.List;
 public class NewsAdapter extends ArrayAdapter<News> {
@@ -22,6 +20,55 @@ public class NewsAdapter extends ArrayAdapter<News> {
         super(context, 0, news);
     }
 
+    /* private List<News> newsList;
+
+   private Context context;
+
+   NewsAdapter(Context ct1, List<News> al1) {
+
+       context = ct1;
+       newsList = al1;
+   }
+*/
+/*@NonNull
+    @Override
+    public NewsHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+
+        LayoutInflater layoutInflater = LayoutInflater.from(context);
+        View view = layoutInflater.inflate(R.layout.custom, parent, false);
+        return new NewsHolder(view);
+    }
+
+    @Override
+    public void onBindViewHolder(@NonNull NewsHolder holder, int position) {
+        News news = newsList.get(position);
+        holder.webTitle.setText(news.getWebTitle());
+        holder.webPublicationDate.setText(news.getWebPublicationDate());
+        holder.sectionName.setText(news.getSectionName());
+        holder.authorName.setText(news.getAuthorName());
+
+    @Override
+    public int getItemCount() {
+
+        return 0;
+    }
+
+    public class NewsHolder extends RecyclerView.ViewHolder {
+        TextView webTitle, webPublicationDate, sectionName,authorName;
+        CircularImageView authorImage;
+
+        NewsHolder(View itemView) {
+
+            super(itemView);
+            webTitle = itemView.findViewById(R.id.web_title);
+            webPublicationDate = itemView.findViewById(R.id.publication_date);
+            sectionName = itemView.findViewById(R.id.section_name);
+            authorName=itemView.findViewById(R.id.author_name);
+            authorImage=itemView.findViewById(R.id.news_image);
+
+        }
+    }
+*/
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
@@ -37,7 +84,7 @@ public class NewsAdapter extends ArrayAdapter<News> {
         TextView webPublicationDate = listItemView.findViewById(R.id.publication_date);
         TextView sectionName = listItemView.findViewById(R.id.section_name);
         TextView authorName = listItemView.findViewById(R.id.author_name);
-        ImageView authorImage = listItemView.findViewById(R.id.news_image);
+        CircularImageView authorImage = listItemView.findViewById(R.id.news_image);
 
         Picasso.with(getContext()).load(currentNews.authorImage).placeholder(R.drawable.load).error(R.drawable.load).into(authorImage);
         webTitle.setText(currentNews.getWebTitle());
@@ -46,4 +93,5 @@ public class NewsAdapter extends ArrayAdapter<News> {
         webPublicationDate.setText(currentNews.getWebPublicationDate());
         return listItemView;
     }
+
 }

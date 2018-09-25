@@ -6,4 +6,7 @@
     <dimen name="article_size">16sp</dimen>
     <dimen name="margin_start">8dp</dimen>
     <dimen name="divider_height">2dp</dimen>
+    <dimen name="imageBorder">4dp</dimen>
+    <dimen name="circularImageDimension">100dp</dimen>
+    <dimen name="marginTop">16dp</dimen>
 </resources>
