@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/web_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_start"
+        android:fontFamily="times new roman"
+        android:text="@string/news_headline"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/news_headline"
+        android:textStyle="bold"/>
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:scaleType="fitXY"
+    android:src="@drawable/ic_launcher_background"
+    android:adjustViewBounds="true"
+    android:id="@+id/news_image"
+    android:layout_marginStart="@dimen/margin_start"
+    android:layout_below="@id/web_title"/>
+    <TextView
+        android:id="@+id/publication_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/author_name"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@id/news_image"
+        android:text="@string/web_publication_date"
+        android:textColor="@color/list_background"/>
+
+
+    <TextView
+        android:id="@+id/section_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/publication_date"
+        android:text="@string/sectionName"
+        android:layout_marginTop="16dp"
+        android:maxLength="40"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="@dimen/article_size"/>
+
+    <TextView
+        android:id="@+id/author_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/web_title"
+        android:layout_toEndOf="@id/news_image"
+        android:layout_marginStart="@dimen/margin_start"
+        android:layout_marginTop="16dp"
+        android:fontFamily="times new roman"
+        android:text="@string/authorName"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/article_size"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>

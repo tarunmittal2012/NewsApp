@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Guardian News</string>
+    <string name="news_headline">Web Titile</string>
+    <string name="web_publication_date">Date</string>
+    <string name="type">Type</string>
+    <string name="url">Web URL</string>
+    <string name="type_key">type</string>
+    <string name="sectionName">Section Name</string>
+    <string name="sectionName1">sectionName</string>
+
+    <string name="no_news_found">No News Available reload after sometime</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="App_title">TODAYS NEWS HEADLINE THE GUARDIAN NEWSPAPER</string>
+    <string name="authorName">Author Name</string>
+    <string name="no_author">No Author ..</string>
+    <string name="problem_json_msg">Problem parsing extractFeatureFromJson:</string>
+    <string name="http_request_problem_message">Problem making the HTTP request.</string>
+    <string name="data_msg2">Problem building the URL</string>
+    <string name="data_format">UTF-8</string>
+    <string name="news_msg">News are Updated!</string>
+    <string name="news_setting">News Settings</string>
+    <string name="COLOR_GREEN">#59c124</string>
+    <string name="COLOR_DARK_RED">#ff0000</string>
+    <string name="type_value">0</string>
+    <string name="menu_item">setting</string>
+
+    <string name="minimum_news">Minimum News</string>
+    <string name="minimum_news_key" translatable="false">min_news</string>
+    <string name="minimum_news_value" translatable="false">0</string>
+
+    <string name="order_by_label">Order By</string>
+    <string name="order_by_key" translatable="false">order-by</string>
+    <string name="order_by_default" translatable="false">@string/order_by_newest_news_value</string>
+
+    <string name="order_by_newest_news_label">Newest</string>
+    <string name="order_by_newest_news_value" translatable="false">newest</string>
+
+    <string name="order_by_oldest_news_label" translatable="false">Oldest</string>
+    <string name="order_by_oldest_news_value">oldest</string>
+
+    <string name="order_by_relevance_news_label">Relevance</string>
+    <string name="order_by_relevance_news_value" translatable="false">relevance</string>
+
+    <string name="section_default">@string/section_all_news_value</string>
+    <string name="section_key" translatable="false">section</string>
+    <string name="section_label">Section</string>
+
+    <string name="settings_section_all_news_label">All</string>
+    <string name="settings_section_art_label">Art and Design</string>
+    <string name="settings_section_australia_news_news_label">Australia news</string>
+    <string name="settings_section_books_label">Books</string>
+    <string name="settings_section_Business_news_label">Business</string>
+    <string name="settings_section_environment_label">Environment</string>
+    <string name="settings_section_Film_news_label">Film</string>
+    <string name="settings_section_football_label">Football</string>
+    <string name="settings_section_law_label">Law</string>
+    <string name="settings_section_life_label">Life and Style</string>
+    <string name="settings_section_media_network_news_label">Media Network</string>
+    <string name="settings_section_opinion_label">Opinion</string>
+    <string name="settings_section_politics_label">Politics</string>
+    <string name="settings_section_society_label">Society</string>
+    <string name="settings_section_sport_label">Sport</string>
+    <string name="settings_section_technology_label">Technology</string>
+    <string name="settings_section_uknews_label">UK News</string>
+    <string name="settings_section_usnews_label">US News</string>
+    <string name="settings_section_world_news_label">World news</string>
+
+
+    <string name="section_all_news_value" translatable="false"/>
+    <string name="settings_artanddesign_value" translatable="false">artanddesign</string>
+    <string name="settings_section_australia_news_news_value" translatable="false">australia-news</string>
+    <string name="settings_books_value" translatable="false">books</string>
+    <string name="settings_section_Business_value" translatable="false">business</string>
+    <string name="settings_environment_value" translatable="false">environment</string>
+    <string name="settings_section_Film_value" translatable="false">film</string>
+    <string name="settings_football_value" translatable="false">football</string>
+    <string name="settings_law_value" translatable="false">law</string>
+    <string name="settings_life_value" translatable="false">lifeandstyle</string>
+    <string name="settings_section_media_network_news_value" translatable="false">media-network</string>
+    <string name="settings_opinion_value" translatable="false">commentisfree</string>
+    <string name="settings_politics_value" translatable="false">politics</string>
+    <string name="settings_section_society_value" translatable="false">society</string>
+    <string name="settings_sport_value" translatable="false">sport</string>
+    <string name="settings_technology_value" translatable="false">technology</string>
+    <string name="settings_uk_value" translatable="false">uk-news</string>
+    <string name="settings_usnews_value" translatable="false">us-news</string>
+    <string name="settings_section_world_news_value" translatable="false">world</string>
+
+    <string name="contributor">contributor</string>
+    <string name="show_tag_key">show-tags</string>
+    <string name="page_size_key">page-size</string>
+    <string name="order_by_key1">order-by</string>
+    <string name="section_key1">section</string>
+    <string name="title">The Guardian</string>
+
+    <string-array name="order_by_label">
+        <item>@string/order_by_newest_news_label</item>
+        <item>@string/order_by_oldest_news_label</item>
+        <item>@string/order_by_relevance_news_label</item>
+    </string-array>
+    <string-array name="order_by_value">
+        <item>@string/order_by_newest_news_value</item>
+        <item>@string/order_by_oldest_news_value</item>
+        <item>@string/order_by_relevance_news_value</item>
+
+    </string-array>
+    <string-array name="section_value">
+        <item>@string/section_all_news_value</item>
+        <item>@string/settings_artanddesign_value</item>
+        <item>@string/settings_section_australia_news_news_value</item>
+        <item>@string/settings_books_value</item>
+        <item>@string/settings_section_Business_value</item>
+        <item>@string/settings_environment_value</item>
+        <item>@string/settings_section_Film_value</item>
+        <item>@string/settings_football_value</item>
+        <item>@string/settings_law_value</item>
+        <item>@string/settings_life_value</item>
+        <item>@string/settings_section_media_network_news_value</item>
+        <item>@string/settings_opinion_value</item>
+        <item>@string/settings_politics_value</item>
+        <item>@string/settings_section_society_value</item>
+        <item>@string/settings_sport_value</item>
+        <item>@string/settings_technology_value</item>
+        <item>@string/settings_uk_value</item>
+        <item>@string/settings_usnews_value</item>
+        <item>@string/settings_section_world_news_value</item>
+    </string-array>
+
+    <string-array name="section_label">
+        <item>@string/settings_section_all_news_label</item>
+        <item>@string/settings_section_art_label</item>
+        <item>@string/settings_section_australia_news_news_label</item>
+        <item>@string/settings_section_books_label</item>
+        <item>@string/settings_section_Business_news_label</item>
+        <item>@string/settings_section_environment_label</item>
+        <item>@string/settings_section_Film_news_label</item>
+        <item>@string/settings_section_football_label</item>
+        <item>@string/settings_section_law_label</item>
+        <item>@string/settings_section_life_label</item>
+        <item>@string/settings_section_media_network_news_label</item>
+        <item>@string/settings_section_opinion_label</item>
+        <item>@string/settings_section_politics_label</item>
+        <item>@string/settings_section_society_label</item>
+        <item>@string/settings_section_sport_label</item>
+        <item>@string/settings_section_technology_label</item>
+        <item>@string/settings_section_uknews_label</item>
+        <item>@string/settings_section_usnews_label</item>
+        <item>@string/settings_section_world_news_label</item>
+    </string-array>
+
+</resources>
