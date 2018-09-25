@@ -92,6 +92,7 @@
     <string name="order_by_key1">order-by</string>
     <string name="section_key1">section</string>
     <string name="title">The Guardian</string>
+    <string name="home">Home</string>
 
     <string-array name="order_by_label">
         <item>@string/order_by_newest_news_label</item>

@@ -19,7 +19,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.webkit.WebView;
 import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -55,8 +54,6 @@ public class MainActivity extends AppCompatActivity implements android.support.v
 
     TextView mEmptyStateTextView;
 
-    WebView webNewsView;
-
     ImageView mView;
 
     private NewsAdapter mAdapter;
@@ -68,7 +65,6 @@ public class MainActivity extends AppCompatActivity implements android.support.v
         setContentView(R.layout.activity_main);
         newsView = findViewById(R.id.news_list);
         mSwipeRefreshLayout = findViewById(R.id.refresh_layout);
-        webNewsView=findViewById(R.id.news_views);
         newsView.setEmptyView(mEmptyStateTextView);
 
         mEmptyStateTextView = findViewById(R.id.error_textview);
@@ -87,13 +83,9 @@ public class MainActivity extends AppCompatActivity implements android.support.v
 
                 News currentNews = mAdapter.getItem(i);
                 Uri newUri = Uri.parse(currentNews.getWebUrl());
-                String newsw=currentNews.getWebUrl();
-                webNewsView.setVisibility(View.VISIBLE);
-                newsView.setVisibility(View.GONE);
-                webNewsView.loadUrl(newsw);
-
-               // Intent intent = new Intent(Intent.ACTION_VIEW, newUri);
-                //startActivity(intent);
+                Intent intent = new Intent(getApplicationContext(), WebViewActivity.class);
+                intent.putExtra("weburl", newUri.toString());
+                startActivity(intent);
             }
         });
         ConnectivityManager connMgr = (ConnectivityManager)
