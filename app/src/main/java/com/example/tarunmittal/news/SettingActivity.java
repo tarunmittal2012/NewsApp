@@ -2,10 +2,12 @@ package com.example.tarunmittal.news;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.CheckBoxPreference;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
+import android.preference.PreferenceScreen;
 import android.support.v7.app.AppCompatActivity;
 public class SettingActivity extends AppCompatActivity {
 
@@ -26,13 +28,14 @@ public class SettingActivity extends AppCompatActivity {
 
             addPreferencesFromResource(R.xml.news_setting);
 
+
             Preference minNews = findPreference(getString(R.string.minimum_news_key));
             bindPreference(minNews);
             Preference orderBy = findPreference(getString(R.string.order_by_key));
             bindPreference(orderBy);
             Preference section = findPreference(getString(R.string.section_key));
             bindPreference(section);
-        }
+            }
 
         private void bindPreference(Preference preference) {
 
@@ -57,6 +60,7 @@ public class SettingActivity extends AppCompatActivity {
             } else {
                 preference.setSummary(stringValue);
             }
+
             return true;
         }
 
