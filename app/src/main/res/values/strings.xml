@@ -51,6 +51,7 @@
     <string name="settings_section_books_label">Books</string>
     <string name="settings_section_Business_news_label">Business</string>
     <string name="settings_section_environment_label">Environment</string>
+    <string name="settings_section_fashion_label">Fashion</string>
     <string name="settings_section_Film_news_label">Film</string>
     <string name="settings_section_football_label">Football</string>
     <string name="settings_section_law_label">Law</string>
@@ -60,6 +61,7 @@
     <string name="settings_section_politics_label">Politics</string>
     <string name="settings_section_society_label">Society</string>
     <string name="settings_section_sport_label">Sport</string>
+    <string name="settings_section_television_label">Television and Radio</string>
     <string name="settings_section_technology_label">Technology</string>
     <string name="settings_section_uknews_label">UK News</string>
     <string name="settings_section_usnews_label">US News</string>
@@ -72,6 +74,7 @@
     <string name="settings_books_value" translatable="false">books</string>
     <string name="settings_section_Business_value" translatable="false">business</string>
     <string name="settings_environment_value" translatable="false">environment</string>
+    <string name="settings_fashion_value" translatable="false">fashion</string>
     <string name="settings_section_Film_value" translatable="false">film</string>
     <string name="settings_football_value" translatable="false">football</string>
     <string name="settings_law_value" translatable="false">law</string>
@@ -81,6 +84,7 @@
     <string name="settings_politics_value" translatable="false">politics</string>
     <string name="settings_section_society_value" translatable="false">society</string>
     <string name="settings_sport_value" translatable="false">sport</string>
+    <string name="settings_televison_value" translatable="false">tv-and-radio</string>
     <string name="settings_technology_value" translatable="false">technology</string>
     <string name="settings_uk_value" translatable="false">uk-news</string>
     <string name="settings_usnews_value" translatable="false">us-news</string>
@@ -112,6 +116,7 @@
         <item>@string/settings_books_value</item>
         <item>@string/settings_section_Business_value</item>
         <item>@string/settings_environment_value</item>
+        <item>@string/settings_fashion_value</item>
         <item>@string/settings_section_Film_value</item>
         <item>@string/settings_football_value</item>
         <item>@string/settings_law_value</item>
@@ -121,6 +126,7 @@
         <item>@string/settings_politics_value</item>
         <item>@string/settings_section_society_value</item>
         <item>@string/settings_sport_value</item>
+<item>@string/settings_televison_value</item>
         <item>@string/settings_technology_value</item>
         <item>@string/settings_uk_value</item>
         <item>@string/settings_usnews_value</item>
@@ -134,6 +140,7 @@
         <item>@string/settings_section_books_label</item>
         <item>@string/settings_section_Business_news_label</item>
         <item>@string/settings_section_environment_label</item>
+        <item>@string/settings_section_fashion_label</item>
         <item>@string/settings_section_Film_news_label</item>
         <item>@string/settings_section_football_label</item>
         <item>@string/settings_section_law_label</item>
@@ -143,6 +150,7 @@
         <item>@string/settings_section_politics_label</item>
         <item>@string/settings_section_society_label</item>
         <item>@string/settings_section_sport_label</item>
+        <item>@string/settings_section_television_label</item>
         <item>@string/settings_section_technology_label</item>
         <item>@string/settings_section_uknews_label</item>
         <item>@string/settings_section_usnews_label</item>
