@@ -21,12 +21,12 @@
     <string name="news_setting">News Settings</string>
     <string name="COLOR_GREEN">#59c124</string>
     <string name="COLOR_DARK_RED">#ff0000</string>
-    <string name="type_value">0</string>
+    <string name="type_value">5</string>
     <string name="menu_item">setting</string>
 
     <string name="minimum_news">Minimum News</string>
     <string name="minimum_news_key" translatable="false">min_news</string>
-    <string name="minimum_news_value" translatable="false">0</string>
+    <string name="minimum_news_value" translatable="false">5</string>
 
     <string name="order_by_label">Order By</string>
     <string name="order_by_key" translatable="false">order-by</string>
@@ -97,6 +97,10 @@
     <string name="section_key1">section</string>
     <string name="title">The Guardian</string>
     <string name="home">Home</string>
+    <string name="night_mode">nightmode</string>
+    <string name="night_mode_label">Night Mode</string>
+    <string name="summary_on">Applied</string>
+    <string name="summary_off">Not Applied</string>
 
     <string-array name="order_by_label">
         <item>@string/order_by_newest_news_label</item>

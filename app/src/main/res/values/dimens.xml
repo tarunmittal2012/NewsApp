@@ -9,4 +9,5 @@
     <dimen name="imageBorder">4dp</dimen>
     <dimen name="circularImageDimension">100dp</dimen>
     <dimen name="marginTop">16dp</dimen>
+    <dimen name="logo_height">80dp</dimen>
 </resources>
