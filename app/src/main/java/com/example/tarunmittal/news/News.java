@@ -25,30 +25,19 @@ public class News {
         return webTitle;
     }
 
-    public void setWebTitle(String webTitle) {
 
-        this.webTitle = webTitle;
-    }
 
     public String getWebPublicationDate() {
 
         return webPublicationDate;
     }
 
-    public void setWebPublicationDate(String webPublicationDate) {
-
-        this.webPublicationDate = webPublicationDate;
-    }
 
     public String getWebUrl() {
 
         return webUrl;
     }
 
-    public void setWebUrl(String webUrl) {
-
-        this.webUrl = webUrl;
-    }
 
     public String getAuthorName() {
 
@@ -65,18 +54,11 @@ public class News {
         return sectionName;
     }
 
-    public void setSectionName(String sectionName) {
-
-        this.sectionName = sectionName;
-    }
 
     public String getAuthorImage() {
 
         return authorImage;
     }
 
-    public void setAuthorImage(String authorImage) {
 
-        this.authorImage = authorImage;
-    }
 }

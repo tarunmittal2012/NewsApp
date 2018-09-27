@@ -8,9 +8,7 @@ public class NewsLoader extends AsyncTaskLoader<List<News>> {
 
     private static final String LOG_TAG = NewsLoader.class.getName();
 
-    /**
-     * Query URL
-     */
+
     private String mUrl;
 
     public NewsLoader(Context context, String url) {
@@ -25,10 +23,8 @@ public class NewsLoader extends AsyncTaskLoader<List<News>> {
         forceLoad();
     }
 
-    /**
-     * This is on a background thread.
-     */
-    @Override
+
+      @Override
     public List<News> loadInBackground() {
 
         if (mUrl == null) {

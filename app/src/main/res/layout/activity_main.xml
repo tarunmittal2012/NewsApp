@@ -8,13 +8,12 @@
     tools:context=".MainActivity">
 
 
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/logo_height"
-             android:padding="@dimen/margin_start"
-            android:elevation="@dimen/margin_start"
-            android:src="@drawable/bg"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/logo_height"
+        android:elevation="@dimen/margin_start"
+        android:padding="@dimen/margin_start"
+        android:src="@drawable/bg"/>
 
 
     <LinearLayout
@@ -60,24 +59,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-            <ListView
-                  android:id="@+id/news_list"
-                  android:layout_width="match_parent"
-                  android:layout_height="match_parent"
-                  android:layout_marginEnd="@dimen/margin_start"
-                  android:layout_marginTop="@dimen/margin_start"
-           /> -->
-       <!-- <android.support.v7.widget.RecyclerView
+        <ListView
+            android:id="@+id/news_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginEnd="@dimen/margin_start"
             android:layout_marginTop="@dimen/margin_start"
-            android:divider="@color/colorAccent"
-            android:dividerHeight="@dimen/divider_height"
-            android:footerDividersEnabled="true"
-            >
-
-        </android.support.v7.widget.RecyclerView> -->
+            />
     </android.support.v4.widget.SwipeRefreshLayout>
 
 </LinearLayout>
